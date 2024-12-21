@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-gradient {
+  background: radial-gradient(circle at center, #ffffff 0%, #DCC00A 100%);
+}
+
+.btn-gradient {
+  background: radial-gradient(circle at center, #ffffff -50%, #FFC300 100%);
+}
+
+.nav-menu {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.nav-menu.open {
+  @apply translate-x-0;
+}
+
+.nav-menu.closed {
+  @apply -translate-x-full md:translate-x-0;
+}
+
+.highlight {
+  @apply bg-[#DCC00A] px-2 inline-block;
+}
+
+.discover-section {
+  border-radius: 48px;
+  background: linear-gradient(180deg, #0F1117 0%, #1A1B23 100%);
+}
