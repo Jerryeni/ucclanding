@@ -27,7 +27,7 @@ export function BuildingSection() {
           <ProgramCard
             icon={<Image src='/images/8.png' alt="Founder" width={50} height={50} />}
             title="Incubation Program"
-            description="Join our program to receive mentorship, resources, and networking to grow your startup into a successful venture."
+            description="Join our program to receive mentorship, resources, and networking to grow your startup into a $UCCessful venture."
           />
         </div>
       </div>
